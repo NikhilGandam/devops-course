@@ -1,0 +1,5 @@
+Create Directory -> mkdir <dir name>
+
+Create File -> copy con file_name.txt (hit enter after entering text)
+            -> echo <enter text> > file_name.txt
+	    -> nul > file_name.txt

@@ -1,0 +1,5 @@
+Create Repository -> git init
+
+Check File Status -> git status
+
+Add Files to Repo -> git add
