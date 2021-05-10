@@ -9,3 +9,7 @@ Commit Files -> git commit -m (m stands for message)
 Add Remote Repository to Local -> git remote add origin "URL"
 
 Create New Branch -> git branch <name of new branch>
+
+Delete Branch -> git branch -D <name of branch>
+
+To Swith To New Branch -> git checkout <branch name>
