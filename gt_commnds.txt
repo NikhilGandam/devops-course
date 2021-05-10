@@ -3,3 +3,7 @@ Create Repository -> git init
 Check File Status -> git status
 
 Add Files to Repo -> git add
+
+Commit Files -> git commit -m (m stands for message)
+
+Add Remote Repository to Local -> git remote add origin "URL"
