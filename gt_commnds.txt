@@ -15,3 +15,5 @@ Delete Branch -> git branch -D <name of branch>
 To Swith To New Branch -> git checkout <branch name>
 
 History Of Commands -> git log
+
+Save Changes -> git stash
