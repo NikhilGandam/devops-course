@@ -1,0 +1,28 @@
+Pull docker images -> docker pull <image name>
+
+Docker version -> docker --version
+
+Check Docker Images -> docker images
+
+Run Docker Image -> docker run -it<make terminal interactive to pass commands> -d <run as deamon(tun in background)>
+
+Show Running Docker Contaniers -> docker ps (shows all running containers)
+
+Stop Running Docker Contanier -> docker stop <docker id>
+
+Execute Docker Contanier -> docker exec -it <docker id> bash(run in current open terminal)
+
+To Kill Contanier -> docker kill <container id>
+
+Remove Contanier -> docker rm <container id>
+
+Remove Images -> docker rmi <image id>
+
+
+Inside container Commands 
+=========================
+
+To Update Contanier -> apt-get update
+
+To Exit Contanier -> exit
+=====================================
