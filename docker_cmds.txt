@@ -4,7 +4,7 @@ Docker version -> docker --version
 
 Check Docker Images -> docker images
 
-Run Docker Image -> docker run -it<make terminal interactive to pass commands> -d <run as deamon(tun in background)>
+Run Docker Image -> docker run -it<make terminal interactive to pass commands> -d <run as deamon(tun in background)> <image name>
 
 Show Running Docker Contaniers -> docker ps (shows all running containers)
 
@@ -18,6 +18,11 @@ Remove Contanier -> docker rm <container id>
 
 Remove Images -> docker rmi <image id>
 
+Save Changes to Contanier -> docker commit <container id> <image name>
+
+Remove All Running Contaniers At Once -> docker rm -f $(docker ps -a -q)
+
+Login To Docker Hub -> docker login
 
 Inside container Commands 
 =========================
