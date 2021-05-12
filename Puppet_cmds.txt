@@ -1,0 +1,38 @@
+ Get Packages -> wget https://apt.puttetlabs.com/puppet-release-bionic.deb
+ 
+ Unzip Package -> sudo dpkg -i puppet-release-bionic.deb
+ 
+ Install Puppet -> sudo apt-get install puppetmaster
+
+Check Puppet Status -> apt policy puppetmaster
+
+sudo vim /etc/default/puppet-master
+
+sudo systemctl start puppet
+
+sudo systemctl enable puppet
+
+sudo puppet cert list
+
+sudo mkdir -p /etc/puppet/code/environments/production/manifests/
+
+sudo nano /etc/puppet/code/environments/production/manifests/site.pp
+
+file {'/tmp/it_works.txt':   #resource file type and filename
+			ensure => 'present',		 #make sure it exists
+			mode => '0644'				 #file permission
+			content => "it works on ${ipaddress_eth0}!\n", #print the eth0 ipaddress
+}
+
+ sudo puppet agent --test
+ 
+node default {
+package {'nginx':
+ensure => installed,
+}
+file {'/tmp/status.txt'
+content => 'Nginx Installed',
+mode => '0644'
+}
+}
+

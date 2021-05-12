@@ -24,6 +24,8 @@ Remove All Running Contaniers At Once -> docker rm -f $(docker ps -a -q)
 
 Login To Docker Hub -> docker login
 
+Create Docker Service -> docker service create --name apache --replicas 5 -p 82:80 unbundocker/webapp
+
 Inside container Commands 
 =========================
 
