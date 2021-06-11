@@ -12,4 +12,14 @@ Create New Branch -> git branch <name of new branch>
 
 Delete Branch -> git branch -D <name of branch>
 
+<<<<<<< HEAD
 To Swith To New Branch -> git checkout <branch name>
+=======
+To Swith To New Branch -> git checkout <branch name>
+
+History Of Commands -> git log
+
+Save Changes -> git stash
+
+Compare changes -> git diff <compare version id> <compare version id>
+>>>>>>> feature1

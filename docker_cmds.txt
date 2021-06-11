@@ -1,0 +1,35 @@
+Pull docker images -> docker pull <image name>
+
+Docker version -> docker --version
+
+Check Docker Images -> docker images
+
+Run Docker Image -> docker run -it<make terminal interactive to pass commands> -d <run as deamon(tun in background)> <image name>
+
+Show Running Docker Contaniers -> docker ps (shows all running containers)
+
+Stop Running Docker Contanier -> docker stop <docker id>
+
+Execute Docker Contanier -> docker exec -it <docker id> bash(run in current open terminal)
+
+To Kill Contanier -> docker kill <container id>
+
+Remove Contanier -> docker rm <container id>
+
+Remove Images -> docker rmi <image id>
+
+Save Changes to Contanier -> docker commit <container id> <image name>
+
+Remove All Running Contaniers At Once -> docker rm -f $(docker ps -a -q)
+
+Login To Docker Hub -> docker login
+
+Create Docker Service -> docker service create --name apache --replicas 5 -p 82:80 unbundocker/webapp
+
+Inside container Commands 
+=========================
+
+To Update Contanier -> apt-get update
+
+To Exit Contanier -> exit
+=====================================

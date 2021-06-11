@@ -1,0 +1,14 @@
+Git configuration
+=================
+cmd : git config --list (to show global config)
+cmd : git show (to show last transaction)
+cmd : git log -all (to show history of commits)
+cmd : git log (to show last 10 commit)
+cmd : git log --oneline (to show all commits in one line)
+cmd : git log -p (to show contents of commit)
+cmd : git reset HEAD <file name> (to rollback file from staging area)
+cmd : git revert (to undo committed changes)
+
+** When local and global configuration are configured, then when some file is committed local config will be the top priority
+
+** when git show is fired then, commit id, auther mail id and commit message are shown
