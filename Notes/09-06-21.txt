@@ -1,0 +1,21 @@
+Linux Git installation
+=====================
+cmd : yum install git -> git installation commands
+cmd : yum remove git  -> git unistallation
+cmd : git config --list -> List of config settings
+cmd : got config --global user.name <name>
+cmd : got config --global user.email <email>
+
+windows git : git version 2.31.0.windows.1
+
+Linux git   :git version 1.8.3.1
+
+** All commands in git begins with keyword got
+
+Configuration :
+===============
+** Config changes are important, without this we can  not pull or push changes
+** There are 7-8 config in git , among 2 are mandatory
+** Username and userpassword 
+
+

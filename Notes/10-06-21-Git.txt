@@ -1,0 +1,21 @@
+Git Project Creation
+====================
+cmd : git init <project-name>
+cmd : git status
+cmd : ls -la (shows folders with hidden folders)
+cmd : git add (to move file to stage area)
+cmd : git commit -m "comment"(to move file to commit area)
+cmd : vi <file name> (to create file)
+cmd : git ls-files (to check files in commit area)
+cmd : touch <file name> (to create multiple files)
+
+** We can create infinite number of repos
+** Google git architecture
+
+Repo structure:
+===============
+** Local Repo has 3 layers
+** Bottom layer is called as working copy/working directory
+** Middle layer is called as Stage/Index
+** Top layer is called as Commit Area
+

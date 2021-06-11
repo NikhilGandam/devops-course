@@ -1,0 +1,30 @@
+1. Network config
+
+Command : nmtui -> Enable network on virtual system(ON/OFF)
+		  hostname -I -> gets ip address
+		  
+VCS : Version control sytem
+	
+	* Manage code on client side
+	* Manage code on server side
+	* Version the code/application
+	* Encryption
+	* VCS is evolved from RCS(Revision control system)(1970-1990)
+	* Features are added to RCS and formed SCM(Source code managment)
+	* Encryption was missing in SCM
+	* RCS didn't have client/server cofig
+	* Repository sits on the server side only
+	
+  -> VCS is of 3 types
+	1. Local VCS(1970-1985) -> To store code in single computer
+	2. Centralized VCS(1985-) -> To store complete code in server
+		- Latency when due to high number of connections
+		- Network issues
+		- Server may get crashed is concern
+	3. DVCS : Distributed Version Control system
+		- DVCS uses SHA for encryption
+		- Linus thorward invented GIT, he also invented Linux
+		
+Interview Question: 
+	1. What is VCS?
+	2. Purpose of VCS?
